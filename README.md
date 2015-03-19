@@ -2,8 +2,7 @@
 
 "Never waste time loading lengthy gif resources again!"
 
-<style>#hi{background:red;}</style>
-<div id='hi'>hi</div>
+<div id='hi' style='background:red'>hi</div>
 
 TranCSScoding is a project designed to convert all of your gif files into CSS so that the browser can more efficiently load and render them. You won't have to load gifs at all. In fact, as soon as your page is loaded, your gifs are good to go! That's because TranCSScoding stores the gif data as specially crafted CSS in a style tag.
 
