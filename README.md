@@ -1,8 +1,13 @@
+###Examples in action:
+
+http://joecolicch.io/colbert.html
+
+http://joecolicch.io/starwars.html
+
+###What's It About?
 "Turn all your gifs into HTML documents!"
 
 "Never waste time loading lengthy gif resources again!"
-
-<div id='hi' style='background:red'>hi</div>
 
 TranCSScoding is a project designed to convert all of your gif files into CSS so that the browser can more efficiently load and render them. You won't have to load gifs at all. In fact, as soon as your page is loaded, your gifs are good to go! That's because TranCSScoding stores the gif data as specially crafted CSS in a style tag.
 
@@ -12,11 +17,13 @@ Disclaimer: only works in webkit browsers thus far, will add more support later
 
 
 Usage:
-
+```
 python tranCSScode.py gifname scale
-
+```
 
 e.g.:
+```
 python tranCSScode.py example_gifs/colbert 0.5
+```
 
 Note: example_gifs/colbert.gif must exist relative to the current directory, and example_gifs/colbert.html will be created as output
